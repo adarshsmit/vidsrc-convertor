@@ -1,0 +1,58 @@
+.tmdb-hover-button {
+  background-color: transparent;
+  color: #01d277; /* TMDB green color */
+  border: 2px solid #01d277;
+  padding: 5px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded border */
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  display: inline-flex; /* Use flexbox */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+
+  transform: translateY(-3px); /* Move the button up */
+}
+
+.tmdb-hover-button:hover {
+  background-color: #01d277;
+  color: white;
+  border-color: #01d277;
+}
+
+.tmdb-form-container {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tmdb-select {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.tmdb-submit-button {
+  background-color: #01d277;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.tmdb-submit-button:hover {
+  background-color: #029d57;
+}

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "TMDB Hover Button",
+    "version": "1.0",
+    "description": "Adds a hover button to TMDB pages.",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://www.themoviedb.org/*"],
+            "js": ["content.js"],
+            "css": ["styles.css"]
+        }
+    ],
+    "icons": {
+        "48": "icon.png"
+    }
+}
